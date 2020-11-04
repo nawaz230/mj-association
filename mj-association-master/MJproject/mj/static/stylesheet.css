@@ -1,0 +1,62 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.text {
+    padding-top: 250px;
+    padding-left: 300px;
+    
+}
+.text h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text h5{
+    color: white;
+}
+.text button{
+    border-radius: 16px;
+}
+.middle-section{
+    background: rgba(223, 223, 223, 0.2);
+    height: 85.5vh;
+    overflow: hidden;
+    padding: 90px;
+}
+
+.middle-header{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+
+.middle-header > p{
+    margin-left: 30%;
+    width: 400px;
+}
+.middle-body{
+    display: flex;
+}
+.middle-text{
+    width: 33%;
+    padding: 30px 30px 50px 30px;
+}
+
+.middle-text img{
+    width: 100px !important;
+    height: 100px;
+}
+.middle-text h5{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+.read-more{
+    color: red;
+    font-weight: 500;
+}
